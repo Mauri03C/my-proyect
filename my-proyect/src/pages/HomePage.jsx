@@ -6,9 +6,9 @@ function HomePage() {
   const [currentSlide, setCurrentSlide] = useState(0);
 
   const images = [
-    "https://images.unsplash.com/photo-1581092334395-91190be4c999?auto=format&fit=crop&w=1500&q=80", // Servidores y cables
-    "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=1500&q=80", // Persona con laptop y gráficos
-    "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1500&q=80"  // Código en pantalla
+    "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=1500&q=80", // Circuitos
+    "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1500&q=80", // Código en pantalla
+    "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1500&q=80"  // Persona con laptop
   ];
 
   useEffect(() => {
